@@ -1,0 +1,46 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 2px solid black;
+    
+}
+article{
+    border: 2px solid black;
+    display: flex;
+ flex: 2;
+ 
+ background-color: rgb(0, 91, 91);
+ 
+}
+aside{
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    border: 2px solid rgb(65, 28, 28);
+    border-radius: 3px;
+    background-color: rgb(45, 101, 101);
+    color: aliceblue;
+}
+.logo{
+    font-size: 50px;
+}
+@media screen and (max-width:500px) {
+   .work_on_smartphone {
+    width:90%;
+    height: 90%;
+   }    
+}
+@media screen and (max-width:500px) {
+    blockquote {
+     width:90%;
+     height: 90%;
+    }    
+ }
